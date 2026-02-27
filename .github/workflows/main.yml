@@ -14,4 +14,4 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
     
-    - run: mvn clean test
+    - run: cd cucumber-carbs-calculator && mvn clean test
